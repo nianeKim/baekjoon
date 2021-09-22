@@ -15,7 +15,9 @@ public class RepeatString {
             String[] st = new String[20];
             st = s.split("");
             for(int j=0; j<st.length; j++) {
-                System.out.print(st[j].repeat(r));
+                for(int k=0;k<r;k++) {
+                    System.out.print(s.charAt(j));
+                }
             }
             System.out.println("");
         }
