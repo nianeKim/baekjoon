@@ -12,9 +12,7 @@ public class Sangsu {
         a = (a%10)*100 + (a/10%10)*10 + (a/100%10);
         b = (b%10)*100 + (b/10%10)*10 + (b/100%10);
 
-        int c = (a>b) ? a : b;
-
-        System.out.println(c);
+        System.out.println((a>b) ? a : b);
         sc.close();
     }
 }
